@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+ <div class="col-4 d-flex justify-content-center align-items-center">
+   <img src="{% static 'images/ANKIT_1.JPG' %}" alt="image " class="about_image">
+ </div>
+ <div class="col-7 text-left text-light">
+    <h2> Hello !</h2>
+    <p class="fs-5">
+        I am a self-driven , proficient in problem solving , development technologies and communication 
+        skills, learn things quickly , passionate about staying up-to-date with emerging technologies , 
+        collaborating with cross-functional teams to deliver cutting-edge products .  
+
+    </p>
+    <p class="fs-5">
+        As a Full stack python developer , I am dedicated to learn and continuously improving my programming skills .I have a strong foundation in Python and a deep understanding of its concepts, syntax, and best practices.
+
+    </p>
+
+ </div>
+
+</div>
+
+<div class="row my-2">
+    <h2 class="text-center" style="color: #4fffb0"> My Tech Stack </h2>
+    <div class="d-flex justify-content-around align-items-center" >
+      <img src="{% static 'images/html.png' %}" alt="html" width="70" height="70" class="img-fluid">
+
+      <img src="{% static 'images/css.png' %}" alt="css" width="70" height="70" class="img-fluid">
+
+      <img src="{% static 'images/bootstrap.png' %}" alt="bootstrap" width="70" height="70" class="img-fluid">
+
+      <img src="{% static 'images/js.png' %}" alt="js" width="70" height="70" class="img-fluid">
+
+      <img src="{% static 'images/python.jpg' %}" alt="python" width="70" height="70" class="img-fluid">
+
+      <img src="{% static 'images/django.png' %}" alt="django" width="70" height="70" class="img-fluid">
+    </div>
+</div>
+{% endblock content1 %}
